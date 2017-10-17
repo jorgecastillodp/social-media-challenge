@@ -3,7 +3,7 @@ import datetime
 import sys
 import xlsxwriter
 
-auth = tweepy.OAuthHandler("key1", "key2")
+auth = tweepy.OAuthHandler("Key1", "key2")
 auth.set_access_token("key3", "key4")
 
 api = tweepy.API(auth)
